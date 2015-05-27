@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = Spine::Logging::VERSION
   spec.authors       = ["TOGGL LLC"]
   spec.email         = ["support@toggl.com"]
-  spec.summary       = ''
+  spec.summary       = 'Logging formatters.'
   spec.description   = ''
   spec.homepage      = 'https://github.com/rspine/logging'
   spec.license       = 'BSD-3-Clause'

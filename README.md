@@ -3,6 +3,8 @@
 [![Gem Version](https://badge.fury.io/rb/spine-logging.svg)](http://badge.fury.io/rb/spine-logging)
 [![Dependency Status](https://gemnasium.com/rspine/logging.svg)](https://gemnasium.com/rspine/logging)
 [![Code Climate](https://codeclimate.com/github/rspine/logging/badges/gpa.svg)](https://codeclimate.com/github/rspine/logging)
+[![security](https://hakiri.io/github/rspine/logging/master.svg)](https://hakiri.io/github/rspine/logging/master)
+[![Inline docs](http://inch-ci.org/github/rspine/logging.svg?branch=master)](http://inch-ci.org/github/rspine/logging)
 
 Formatters for logger.
 

@@ -20,20 +20,27 @@ Then run `bundle`. If you're not using Bundler, just `gem install spine-logging`
 
 ## Usage
 
+Logging to file:
+
 ```ruby
-logger = Spine::Logging.get('development')
+logger = Spine::Logging.file('development')
 logger.info('Hey')
 # [INFO 2015-05-27T10:35:27.377Z #9883] Hey
 ```
 
-It is also possible to add stream for logging:
-
-```ruby
-logger = Spine::Logging.prepare(STDOUT)
-```
-
-or getting standard output:
+Logging to standard output:
 
 ```ruby
 logger = Spine::Logging.output
+logger.info('Hey')
+# [INFO 2015-05-27T10:35:27.377Z #9883] Hey
+```
+
+Logging to syslog:
+
+```ruby
+Spine::Logging.extend(Spine::Logging::Logs::Syslog)
+logger = Spine::Logging.syslog('my_app')
+logger.info('Hey')
+# Hey
 ```

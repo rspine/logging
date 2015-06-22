@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.2.0
+-----
+-   Adds Syslog option.
+-   Deprecates `Spine::Logging.get` method, use `Spine::Logging.file` instead.
+
 0.1.1
 -----
 -   Adds summary
